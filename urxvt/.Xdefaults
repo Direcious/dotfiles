@@ -1,0 +1,12 @@
+! URxvt*geometry: 112x22
+URxvt*font: xft:Terminus:size=10
+URxvt*urlLauncher: firefox-developer-edition
+URxvt*scrollBar: false
+URxvt.internalBorder: 25
+URxvt*depth: 32
+
+URxvt*background: rgba:2800/2A00/3600/EE00
+
+Xft*dpi: 96
+Xft*antialias: true
+Xft*hinting: full
