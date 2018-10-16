@@ -143,10 +143,10 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 bindsym $mod+space exec rofi -show combi -modi combi -font "Terminus 12" -lines 10 -matching fuzzy
 
-gaps inner 10
-gaps outer 30
+gaps inner 20
+gaps outer 10
 
-exec --no-startup-id ~/.polybar/run_polybar.sh
+exec --no-startup-id ~/.config/polybar/launch.sh
 exec --no-startup-id redshift
 exec --no-startup-id wal -i ~/Pictures/Wal/bg1.jpg
 
